@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cucumberProject</groupId>
+  <artifactId>cucumber</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>cucumberProject</name>
+  <description>cucumber</description>
+  
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.15.0</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.10.0</version>
+</dependency>
+
+    <dependency>
+    	<groupId>cucumberproject</groupId>
+    	<artifactId>cucum</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
